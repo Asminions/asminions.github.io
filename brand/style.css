@@ -1,0 +1,426 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.header {
+	height: 100px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+	border: 1px solid #ececec;
+	background-color: #ffffff;
+}
+
+.container {
+	width: 1142px;
+	margin: 0 auto;
+}
+
+.header-flex {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.header-left {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	font-size: 27px;
+	color: #222222;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.logo-d {
+	color: #f16d7f;
+	font-weight: 400;
+}
+
+.header-form {
+	display: flex;
+	width: 317px;
+	height: 38px;
+	border-radius: 0 3px 3px 0;
+	border: 1px solid #e6e6e6;
+	background-color: #ffffff;
+	margin-left: 37px;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	height: 38px;
+	line-height: 38px;
+	background-color: #f16d7f;
+	padding-left: 19px;
+	padding-right: 19px;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 400;
+	text-decoration: none;
+	letter-spacing: 0.38px;
+}
+
+a.button:hover {
+	background-color: #f16d7fa8;
+}
+
+.cart-img {
+	margin-right: 26px;
+}
+
+.menu {
+	list-style-type: none;
+	display: flex;
+	height: 51px;
+	justify-content: center;
+}
+
+.menu-link {
+	padding: 20px 15px;
+	display: block;
+	font-size: 14px;
+	color: #222222;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav {
+	background-color: #fff;
+}
+
+.bunner {
+	height: 614px;
+	background-color: #e8e8e8;
+}
+
+.bunner-back {
+	background-image: url(img/back-b.jpg);
+	height: 100%;
+	background-position: 0 -51px;
+	display: flex;
+	align-items: center;
+}
+
+.fashion {
+	font-size: 40px;
+	color: #222222;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 32px;
+}
+
+.the-brand {
+	font-size: 60px;
+	color: #222222;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+
+.bunner-text {
+	border-left: 12px solid #f16d7f;
+	padding-left: 12px;
+}
+
+.fashion-span {
+	color: #f16d7f;
+}
+
+.browse {
+	width: 87px;
+	height: 38px;
+	border-radius: 3px 0 0 3px;
+	border: 1px solid #e6e6e6;
+	background-color: #cdcdcc;
+	background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.browse:hover {
+	background-color: #f1f1f1;
+}
+}
+
+#txtSearch {
+	width: 280px;
+}
+
+
+.searchB {
+	color: #222222;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.35px;
+}
+
+input#txtSearch {
+	width: 280px;
+}
+
+
+.menu-list a:hover {
+	font-weight: 800;
+
+}
+
+/*Категории*/
+.categ {
+	margin-top: 98px;
+}
+
+.blok {
+
+	height: 823px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+
+.men {
+	background: url(img/man.jpg) no-repeat;
+	width: 560px;
+	height: 542px;
+	text-decoration: none;
+
+}
+
+
+.accessories {
+	background: url(img/accessories.jpg) no-repeat;
+	width: 560px;
+	height: 261px;
+	background-color: #dadad2;
+	background-position: 150px 0px;
+	text-decoration: none;
+}
+
+.women {
+	background: url(img/women.jpg) no-repeat;
+	width: 560px;
+	height: 261px;
+	text-decoration: none;
+}
+
+.kids {
+	background: url(img/kids.jpg) no-repeat;
+	width: 560px;
+	height: 542px;
+	text-decoration: none;
+}
+
+
+.txt-cat1 {
+	width: 175px;
+	height: 82px;
+	background-color: #ffffff;
+	line-height: 41px;
+	text-align: center;
+
+}
+
+.txt-cat2 {
+	width: 225px;
+	height: 82px;
+	background-color: #ffffff;
+	line-height: 41px;
+	text-align: center;
+}
+
+.txt-cat3 {
+	width: 162px;
+	height: 82px;
+	background-color: #ffffff;
+	line-height: 41px;
+	text-align: center;
+}
+
+.txt-cat4 {
+	width: 180px;
+	height: 82px;
+	background-color: #ffffff;
+	line-height: 41px;
+	text-align: center;
+}
+
+.txt-black {
+	color: #222222;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: -30px;
+
+}
+
+.txt-red {
+	color: #f16d7f;
+	font-size: 30px;
+	letter-spacing: 0.75px;
+	text-transform: uppercase;
+
+}
+
+/*fetured-items*/
+.prod {
+	width: 263px;
+	height: 364px;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+	background-color: #ffffff;
+	position: relative;
+	margin-bottom: 20px;
+
+}
+
+.fetured-blok {
+	height: 1000px;
+}
+
+.fet-Txt {
+	color: #222222;
+	font-size: 30px;
+	font-weight: 800;
+	letter-spacing: 0.75px;
+	text-align: center;
+}
+
+.Shop-fet-txt {
+	color: #9f9f9f;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 54px;
+	letter-spacing: 0.35px;
+	text-align: center;
+	margin-top: -36px;
+}
+
+.shop-fet {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+
+.prod a {
+	text-decoration: none;
+}
+
+
+
+.name_prod {
+	color: #222222;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+.price {
+	color: #f16d7f;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+
+
+.button-prod {
+	height: 54px;
+	line-height: 54px;
+	background-color: #f16d7f;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	text-decoration: none;
+	padding-left: 27px;
+	padding-right: 27px;
+}
+
+.all-product {
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.button-prod:hover {
+	background-color: #f16d7fa8;
+}
+
+
+
+
+.addToCart  {
+	position: absolute;
+	margin: 0;
+	width: 263px;
+	height: 280px;
+	top: 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background-color: rgba(58, 56, 56, 0.83);
+	display: none;
+
+
+}
+
+.prod .addToCart .linkAddToCart {
+	
+	width: 123px;
+    height: 39px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    text-align: center;
+	line-height: 39px;
+	
+	
+	
+
+}
+
+
+
+.shop-fet .prod:hover .addToCart {
+	display: flex;
+}
+
+.shop-fet .prod .addToCart:hover a {
+	border: 2px solid #f16d7f;
+	
+}
+
+
+.i-cart {
+	width: 23px;
+	height: 22px;
+	padding-right: 8px;
+
+}
+
+.addToCart {
+	
+}
