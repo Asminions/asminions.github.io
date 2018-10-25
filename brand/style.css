@@ -447,7 +447,8 @@ input#txtSearch {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
-	
+	margin-bottom: 30px;
+	margin-top: 15px
 }
 
 
@@ -455,8 +456,9 @@ input#txtSearch {
 	display: flex;
     flex-flow: column;
     justify-content: space-between;
-    margin-top: 48px;
-    margin-bottom: 66px;
+	margin-bottom: 20px;
+	margin-top: 20px
+   
 }
 
 .forma {
