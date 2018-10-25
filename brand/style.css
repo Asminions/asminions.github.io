@@ -396,10 +396,6 @@ input#txtSearch {
     border: 1px solid #fff;
     text-align: center;
 	line-height: 39px;
-	
-	
-	
-
 }
 
 
@@ -421,6 +417,63 @@ input#txtSearch {
 
 }
 
-.addToCart {
+
+.delivery-blok {
+	background-color:  #222224;
+	height: 529px;
+	margin-top: 113px;
+	display: flex;
+	}
+
+
+.opis-del {
+	width: 219px;
+	color: #fbfbfb;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.35px;
+}
+
+.zag-del {
+	color:  #fbfbfb;
+	font-size: 20px;
+	font-weight: 700;
+		
+}
+
+
+.free {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
 	
+}
+
+
+.del-uslov {
+	display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 66px;
+}
+
+.forma {
+	width: 40px;
+	height: 40px;
+	margin-right: 33px;
+	margin-left: 36px;
+	padding-top: 7px;
+	
+	
+}
+
+.forma:hover {
+	transform: scaleX(1.25) scaleY(1.25);
+	transform: translate(0.1s);
+}
+
+.opis {
+	margin: 0;
 }
