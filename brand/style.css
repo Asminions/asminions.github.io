@@ -428,6 +428,7 @@ img.forma:hover {
 .fidback {
 	height: 438px;
 	margin-top: 97px;
+	background-color: #ffffff;
 	
 }
 .container-b {
@@ -469,10 +470,11 @@ img.forma:hover {
 }
 .Subscribe-div {
 	display: flex;
+	margin-top: 97px;
 }
 .binburhan {
 	border-right: 1px solid #ffffff;
-	width: 571px;
+	width: 50%;
 	min-height: 438px;
 }
 figure.figure-m {
@@ -521,7 +523,7 @@ figure.figure-m {
 }
 
 .subscribe {
-	width: 571px;
+	width: 50%;
 	min-height: 438px;
 	margin-top: 148px;
 }
