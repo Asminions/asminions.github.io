@@ -489,6 +489,8 @@ figure.figure-m {
 	background-color: #e1e1e1;
 	display: flex;
 	justify-content: space-between;
+	box-sizing: border-box;
+	
 }
 .Subscribe-form input[type="email"] {
 	opacity: 0.67;
@@ -503,6 +505,7 @@ figure.figure-m {
 	letter-spacing: 0.35px;
 	min-height: 46px;
 	border: none;
+	outline: none;
 }
 .but-Subscribe {
 	border-radius: 0 23px 23px 0;
@@ -513,6 +516,8 @@ figure.figure-m {
 	padding-top: 2px;
 	letter-spacing: 0.35px;
 	border: none;
+	box-sizing: border-box;
+	outline: none;
 }
 .sub-p {
 	color: #ffffff;
