@@ -518,6 +518,7 @@ figure.figure-m {
 	border: none;
 	box-sizing: border-box;
 	outline: none;
+	cursor: pointer;
 }
 .sub-p {
 	color: #ffffff;
