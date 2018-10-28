@@ -422,6 +422,7 @@ img.forma:hover {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	margin: 0 auto;
 	
 }
 .fidback {
@@ -469,7 +470,7 @@ img.forma:hover {
 .Subscribe-div {
 	display: flex;
 }
-.fid-back .container .Subscribe-div .binburhan {
+.binburhan {
 	border-right: 1px solid #ffffff;
 	width: 571px;
 	min-height: 438px;
