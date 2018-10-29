@@ -516,6 +516,7 @@ figure.figure-m {
 	border-radius: 23px 0 0 23px;
 	width: 282px;
 	padding-left: 28px;
+	padding-right: 106px;
 	background-color: #e1e1e1;
 	letter-spacing: 0.35px;
 	min-height: 46px;
@@ -674,15 +675,17 @@ footer {
 	display: inline-block;
 	list-style-type: none;
 	padding-left: 13px;
-}
+	}
+
 .slider-all li:first-child {
 	margin: 0;
 	padding: 0;
 }
-
-img[alt="slide"]:nth-child(2):active {
-	background: url(img/slide2.png) no-repeat;
+.slide:hover a{
+	background: #f16d7f;
 }
+
+
 .del-women {
 	background: url(img/back_bottom.png) no-repeat;
 	width: 767px;
@@ -717,4 +720,8 @@ img[alt="slide"]:nth-child(2):active {
 	
 	
 	
+}
+
+.slide-link {
+	background: url(img/slide1.png) no-repeat;
 }
