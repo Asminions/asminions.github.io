@@ -673,13 +673,14 @@ footer {
 .slider-all li {
 	display: inline-block;
 	list-style-type: none;
+	padding-left: 13px;
+}
+.slider-all li:first-child {
+	margin: 0;
+	padding: 0;
 }
 
-.slider-all li a:hover .slide{
-	background: url(img/slide2.png) no-repeat;
-}
-
-.slide:nth-child(2):active {
+img[alt="slide"]:nth-child(2):active {
 	background: url(img/slide2.png) no-repeat;
 }
 .del-women {
