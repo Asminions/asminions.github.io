@@ -144,13 +144,12 @@ a.button:hover {
 	width: 87px;
 	border: 1px solid #e6e6e6;
 	outline: none;
-    background-color: #cdcdcc;
-    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	transition: transform 300ms ease-in-out,
-	-o-transform 300ms ease-in-out;
+	background-color: #cdcdcc;
+	background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform 300ms ease-in-out, -o-transform 300ms ease-in-out;
 }
 
 .browse:hover p.searchB {
@@ -160,10 +159,16 @@ a.button:hover {
 	cursor: pointer;
 }
 
-
 #txtSearch {
 	width: 280px;
+	color: #a4a4a4;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 32px;
+	letter-spacing: 0.35px;
 }
+
 .searchB {
 	color: #222222;
 	font-family: Lato;
@@ -171,6 +176,7 @@ a.button:hover {
 	font-weight: 300;
 	letter-spacing: 0.35px;
 }
+
 input#txtSearch {
 	width: 280px;
 	padding: 0 10px 0 10px;
@@ -178,6 +184,7 @@ input#txtSearch {
 	border: 1px solid #e6e6e6;
 	outline: none;
 }
+
 .but-search {
 	border: none;
 	cursor: pointer;
@@ -185,28 +192,29 @@ input#txtSearch {
 	min-width: 38px;
 	border: 1px solid #e6e6e6;
 	outline: none;
-	transition: transform 300ms ease,
-	-o-transform 300ms ease-in;
+	transition: transform 300ms ease, -o-transform 300ms ease-in;
 }
 
 i.fa.fa-search {
-    color: #a4a4a4;
+	color: #a4a4a4;
 }
 
 .but-search:hover i.fa.fa-search {
 	color: black;
 	transform: scale(1.2, 1.2);
-} 
+}
 
 .menu-list a:hover {
-	transform: translateY(-3px);
 	border-bottom: 3px solid #ef5b70;
 }
 
+
 /*Категории*/
+
 .categ {
 	margin-top: 98px;
 }
+
 .blok {
 	height: 823px;
 	display: flex;
@@ -214,13 +222,14 @@ i.fa.fa-search {
 	justify-content: space-around;
 	margin-bottom: 100px;
 }
+
 .men {
 	background: url(img/man.jpg) no-repeat;
 	width: 560px;
 	height: 542px;
 	text-decoration: none;
-	
 }
+
 .accessories {
 	background: url(img/accessories.jpg) no-repeat;
 	width: 560px;
@@ -229,18 +238,21 @@ i.fa.fa-search {
 	background-position: 150px 0px;
 	text-decoration: none;
 }
+
 .women {
 	background: url(img/women.jpg) no-repeat;
 	width: 560px;
 	height: 261px;
 	text-decoration: none;
 }
+
 .kids {
 	background: url(img/kids.jpg) no-repeat;
 	width: 560px;
 	height: 542px;
 	text-decoration: none;
 }
+
 .txt-cat1 {
 	width: 175px;
 	height: 82px;
@@ -248,6 +260,7 @@ i.fa.fa-search {
 	line-height: 41px;
 	text-align: center;
 }
+
 .txt-cat2 {
 	width: 225px;
 	height: 82px;
@@ -255,6 +268,7 @@ i.fa.fa-search {
 	line-height: 41px;
 	text-align: center;
 }
+
 .txt-cat3 {
 	width: 162px;
 	height: 82px;
@@ -262,6 +276,7 @@ i.fa.fa-search {
 	line-height: 41px;
 	text-align: center;
 }
+
 .txt-cat4 {
 	width: 180px;
 	height: 82px;
@@ -269,6 +284,7 @@ i.fa.fa-search {
 	line-height: 41px;
 	text-align: center;
 }
+
 .txt-black {
 	color: #222222;
 	font-size: 18px;
@@ -276,6 +292,7 @@ i.fa.fa-search {
 	text-transform: uppercase;
 	margin-bottom: -30px;
 }
+
 .txt-red {
 	color: #f16d7f;
 	font-size: 30px;
@@ -283,7 +300,9 @@ i.fa.fa-search {
 	text-transform: uppercase;
 }
 
+
 /*fetured-items*/
+
 .prod {
 	width: 263px;
 	height: 364px;
@@ -292,6 +311,7 @@ i.fa.fa-search {
 	position: relative;
 	margin-bottom: 20px;
 }
+
 .fet-Txt {
 	color: #222222;
 	font-size: 30px;
@@ -299,6 +319,7 @@ i.fa.fa-search {
 	letter-spacing: 0.75px;
 	text-align: center;
 }
+
 .Shop-fet-txt {
 	color: #9f9f9f;
 	font-size: 14px;
@@ -308,14 +329,17 @@ i.fa.fa-search {
 	text-align: center;
 	margin-top: -36px;
 }
+
 .shop-fet {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+
 .prod a {
 	text-decoration: none;
 }
+
 .name_prod {
 	color: #222222;
 	font-family: Lato;
@@ -324,6 +348,7 @@ i.fa.fa-search {
 	text-transform: uppercase;
 	padding-left: 15px;
 }
+
 .price {
 	color: #f16d7f;
 	font-family: Lato;
@@ -332,6 +357,7 @@ i.fa.fa-search {
 	text-transform: uppercase;
 	padding-left: 15px;
 }
+
 .button-prod {
 	height: 54px;
 	line-height: 54px;
@@ -345,14 +371,17 @@ i.fa.fa-search {
 	padding-left: 27px;
 	padding-right: 27px;
 }
+
 .all-product {
 	margin-top: 70px;
 	display: flex;
 	justify-content: center;
 }
+
 .button-prod:hover {
 	background-color: #f16d7fa8;
 }
+
 .addToCart {
 	position: absolute;
 	margin: 0;
@@ -365,6 +394,7 @@ i.fa.fa-search {
 	background-color: rgba(58, 56, 56, 0.83);
 	display: none;
 }
+
 .prod .addToCart .linkAddToCart {
 	width: 123px;
 	height: 39px;
@@ -375,23 +405,28 @@ i.fa.fa-search {
 	text-align: center;
 	line-height: 39px;
 }
+
 .shop-fet .prod:hover .addToCart {
 	display: flex;
 }
+
 .shop-fet .prod .addToCart:hover a {
 	border: 2px solid #f16d7f;
 }
+
 .i-cart {
 	width: 23px;
 	height: 22px;
 	padding-right: 8px;
 }
+
 .delivery-blok {
 	background-color: #222224;
 	height: 529px;
 	margin-top: 113px;
 	display: flex;
 }
+
 .opis-del {
 	width: 219px;
 	color: #fbfbfb;
@@ -400,11 +435,13 @@ i.fa.fa-search {
 	line-height: 24px;
 	letter-spacing: 0.35px;
 }
+
 .zag-del {
 	color: #fbfbfb;
 	font-size: 20px;
 	font-weight: 700;
 }
+
 .free {
 	display: flex;
 	flex-flow: wrap;
@@ -412,6 +449,7 @@ i.fa.fa-search {
 	margin-bottom: 30px;
 	margin-top: 15px
 }
+
 .del-uslov {
 	display: flex;
 	flex-flow: column;
@@ -419,6 +457,7 @@ i.fa.fa-search {
 	margin-bottom: 20px;
 	margin-top: 20px
 }
+
 .forma {
 	width: 40px;
 	height: 40px;
@@ -427,32 +466,36 @@ i.fa.fa-search {
 	padding-top: 7px;
 	transition: transform 300ms ease-in-out, -o-transform 300ms ease-in-out;
 }
+
 .forma:hover {
 	transform: scaleX(1.25) scaleY(1.25);
 	transform: translate(0.1s);
 }
+
 .opis {
 	margin: 0;
 }
+
 img.forma:hover {
 	transform: translateX(15px);
 }
+
 .fid-back {
 	background: url(img/fidback.jpg) no-repeat;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	margin: 0 auto;
+
 }
+
 .fidback {
 	height: 438px;
 	margin-top: 97px;
 	background-color: #ffffff;
 }
+
 .container-b {
 	width: 1609px;
 	margin: 0 auto;
 }
+
 
 }
 .figure-m {
@@ -466,7 +509,7 @@ img.forma:hover {
 	line-height: 26px;
 	letter-spacing: 0.4px;
 	float: right;
-	padding-right: 60px;
+	padding-right: 20px;
 	padding-top: 25px;
 }
 .Burhan-name {
@@ -475,7 +518,7 @@ img.forma:hover {
 	font-size: 16px;
 	font-weight: 700;
 	margin-bottom: -13px;
-	font-style:normal;
+	font-style: normal;
 }
 .dhaka {
 	color: #222224;
@@ -484,15 +527,18 @@ img.forma:hover {
 	font-weight: 300;
 	letter-spacing: 0.3px;
 	line-height: 14px;
-	font-style:normal;
+	font-style: normal;
 }
 .Subscribe-div {
+	margin-right: 330px;
 	display: flex;
+	justify-content: flex-end;
 }
 .binburhan {
 	border-right: 1px solid #ffffff;
-	width: 50%;
+	width: 570px;
 	height: 438px;
+	margin-left: 231px;
 }
 figure.figure-m {
 	margin: 0;
@@ -549,7 +595,7 @@ figure.figure-m {
 	font-weight: 400;
 }
 .subscribe {
-	width: 50%;
+	width: 570px;
 	margin-top: 148px;
 }
 .subscribe-p {
@@ -589,8 +635,11 @@ footer {
 	margin-left: 8px;
 	text-align: center;
 	line-height: 32px;
-	transition: transform 300ms ease-in-out,
-	-o-transform 300ms ease-in-out;
+	transition: transform 300ms ease-in-out, -o-transform 300ms ease-in-out;
+}
+
+.icone-soc:hover {
+	color: #ffffff;
 }
 .footer-right {
 	display: flex;
@@ -667,30 +716,27 @@ footer {
 .prod-info a:hover {
 	color: #f16d7f;
 }
-.slider-all {
-	display: block;
-	padding: 0;
+.slider {
+	width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
+    margin-left: 13px;
+    margin-top: 7px;
+	
 }
-.slider-all li {
-	display: inline-block;
-	list-style-type: none;
-	padding-left: 13px;
-	}
 
-.slider-all li:first-child {
-	margin: 0;
-	padding: 0;
-}
-.slide:hover a{
+.slider:hover {
 	background: #f16d7f;
 }
 
+.slider:first-child {
+	margin-left: 0;
+}
 
 .del-women {
 	background: url(img/back_bottom.png) no-repeat;
 	width: 767px;
 }
-
 .discount {
 	padding-left: 39px;
 	color: #ffffff;
@@ -700,15 +746,12 @@ footer {
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	margin-top: 133px;
-    margin-bottom: -40px;
-	
+	margin-bottom: -40px;
 }
-
 .dis-red {
 	color: #f16d7f;
 	letter-spacing: 1.5px;
 }
-
 .dis-white {
 	font-size: 32px;
 	letter-spacing: 0.9px;
@@ -717,11 +760,11 @@ footer {
 	font-family: Lato;
 	font-weight: 700;
 	text-transform: uppercase;
-	
-	
+}
+.menu-list {
 	
 }
 
-.slide-link {
-	background: url(img/slide1.png) no-repeat;
+.slider-all {
+	display: flex;
 }
