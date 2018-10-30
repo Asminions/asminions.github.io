@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-	width: 1142px;
+	min-width: 1142px;
+	max-width: 1142px;
 	margin: 0 auto;
 }
 
@@ -480,15 +481,12 @@ img.forma:hover {
 	transform: translateX(15px);
 }
 
-.fid-back {
-	background: url(img/fidback.jpg) no-repeat;
 
-}
 
 .fidback {
-	height: 438px;
+	width: 100%;
 	margin-top: 97px;
-	background-color: #ffffff;
+	background: url(img/fidback.jpg) no-repeat center;
 }
 
 .container-b {
@@ -509,7 +507,7 @@ img.forma:hover {
 	line-height: 26px;
 	letter-spacing: 0.4px;
 	float: right;
-	padding-right: 20px;
+	padding-right: 70px;
 	padding-top: 25px;
 }
 .Burhan-name {
@@ -530,7 +528,6 @@ img.forma:hover {
 	font-style: normal;
 }
 .Subscribe-div {
-	margin-right: 330px;
 	display: flex;
 	justify-content: flex-end;
 }
@@ -538,7 +535,7 @@ img.forma:hover {
 	border-right: 1px solid #ffffff;
 	width: 570px;
 	height: 438px;
-	margin-left: 231px;
+	
 }
 figure.figure-m {
 	margin: 0;
