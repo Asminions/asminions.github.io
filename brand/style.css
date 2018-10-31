@@ -314,6 +314,7 @@ i.fa.fa-search {
 	background-color: #ffffff;
 	position: relative;
 	margin-bottom: 20px;
+	display: flex;
 }
 
 .fet-Txt {
@@ -337,7 +338,7 @@ i.fa.fa-search {
 .shop-fet {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .prod a {
@@ -419,9 +420,9 @@ i.fa.fa-search {
 }
 
 .i-cart {
-	width: 23px;
 	height: 22px;
 	padding-right: 8px;
+	
 }
 
 .delivery-blok {
@@ -768,3 +769,67 @@ footer {
 .slider-all {
 	display: flex;
 }
+
+
+
+.item-product {
+	width: 263px;
+	position: relative;
+	margin-bottom: 39px;
+}
+
+.item-product:hover .param-add {
+	display: flex;
+	
+}
+
+
+
+.item-product:hover .img-prod{
+	filter: brightness(50%);
+}
+
+.item-product:hover {
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+
+.product {
+	display: block;
+	text-decoration: none;
+	
+	
+}
+
+
+
+.param-add {
+	position: absolute;
+	top: 94px;
+	display: none;
+	justify-content: center;
+	width: 263px;
+	
+	
+}
+
+.prod-add {
+	text-decoration: none;
+	height: 39px;
+	border: 1px solid #ffffff;
+	display: block;
+	padding-right: 14px;
+	padding-left: 14px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 39px;
+	
+}
+
+.prod-add:hover {
+	    box-shadow: 0px 0px 8px 1px;
+}
+
+
