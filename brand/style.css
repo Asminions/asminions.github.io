@@ -997,29 +997,31 @@ footer {
 
 summary {
 	max-width: 223px;
+	height: 37px;
 	color: #ef5b70;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 20px;
 	text-transform: uppercase;
-	display: block;
+	display: flex;
+	border-left: 3px solid #ef5b70;
+	margin-bottom: 18px;
+	padding-left: 10px;
+	border-bottom: 1px solid #ebebeb;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
 }
 
  summary::-webkit-details-marker {
   display: none;
 }
 
-summary::after {
-  content: '';
-  margin-left: 47px;
-}
 
 
-details[open] > summary::after {
-   content: '';
-	padding-left: 8.563em;
-	color: #ef5b70;
-}
+
+
 
 .cat-link {
 	text-decoration: none;
@@ -1372,3 +1374,25 @@ details[open] > summary::after {
 .free-delivery {
 	margin-bottom: 97px;
 }
+
+
+details[open] > summary::after{
+   	content: '\25B5';
+	color: #ef5b70;
+	transform: rotate(180deg);
+	
+}
+
+
+
+
+
+summary::after {
+		 content: '\25B5';
+		 padding:0 10px;
+		transform: rotate(180deg);
+		color: #6f6e6e;
+}
+
+
+

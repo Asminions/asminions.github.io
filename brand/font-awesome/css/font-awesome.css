@@ -526,10 +526,10 @@
 .fa-magnet:before {
   content: "\f076";
 }
-.fa-chevron-up:before {
+.fa-chevron-up:affter {
   content: "\f077";
 }
-.fa-chevron-down:before {
+.fa-chevron-down:after {
   content: "\f078";
 }
 .fa-retweet:before {
