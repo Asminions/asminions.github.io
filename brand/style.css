@@ -1229,3 +1229,6 @@ summary::after {
 	line-height: 19.99px;
 	text-transform: uppercase;
 }
+#tick {
+	color: black;
+}
