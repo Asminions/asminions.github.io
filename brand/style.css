@@ -433,7 +433,7 @@ i.fa.fa-search {
 }
 
 .opis-del {
-	width: 219px;
+	
 	color: #fbfbfb;
 	font-size: 14px;
 	font-weight: 300;
@@ -448,8 +448,9 @@ i.fa.fa-search {
 }
 
 .free {
+	max-width: 294px;
 	display: flex;
-	flex-flow: wrap;
+	/*flex-flow: wrap;*/
 	justify-content: center;
 	margin-bottom: 30px;
 	margin-top: 15px
@@ -460,7 +461,7 @@ i.fa.fa-search {
 	flex-flow: column;
 	justify-content: space-between;
 	margin-bottom: 20px;
-	margin-top: 20px
+		
 }
 
 .forma {
@@ -489,7 +490,7 @@ img.forma:hover {
 
 .fidback {
 	width: 100%;
-	margin-top: 97px;
+	margin-top: 0;
 	background: url(img/fidback.jpg) no-repeat center;
 }
 
@@ -1251,4 +1252,123 @@ details[open] > summary::after {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 26px;
+}
+
+.page-grey {
+	color: #c4c4c4;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 26px;
+	margin-right: 16px;
+	text-decoration: none;
+}
+
+.page-grey:hover {
+	color: #ef5b70;
+}
+
+.page-red {
+	color: #ef5b70;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 26px;
+	margin-right: 16px;
+	margin-left: 16px;
+	text-decoration: none;
+}
+
+.page {
+	margin-left: 223px;
+	
+	line-height: 44px;
+	border-radius: 3px;
+	outline: 1px solid #ebebeb;
+	background-color: #ffffff;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.but-view {
+	display: block;
+	text-decoration: none;
+	color: #ef5b70;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 44px;
+	height: 44px;	
+	border: 1px solid #ef5b70;
+	padding-left: 46px;
+	padding-right: 46px;
+	border-radius: 3px;
+}
+
+.but-view:hover {
+	box-shadow: 0 0 8px 2px;
+}
+
+.page-heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-grey3 {
+	color: #c4c4c4;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 26px;
+	text-decoration: none;
+}
+
+.page-grey6 {
+	color: #c4c4c4;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 26px;
+	text-decoration: none;
+}
+
+.page-grey3:hover {
+	color: #ef5b70;
+}
+
+.black-back {
+	height: 341px;
+	background-color: #222224;
+	display: flex;
+	margin-top: 125px;
+	
+		
+}
+
+
+.free-p {
+	max-width: 294px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	
+}
+
+.del-w {
+	flex-flow: row;
+	justify-content: space-between;
+	margin-top: 89px;
+}
+
+.cent-op {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	min-width: 219px
+}
+
+.p2 {
+	    min-width: 325px;
+	margin-top: -10px;
+
+}
+
+.free-delivery {
+	margin-bottom: 97px;
 }
