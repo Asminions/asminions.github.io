@@ -1011,7 +1011,7 @@ summary {
 
 summary::after {
   content: '';
-  margin-right: ;
+  margin-left: 47px;
 }
 
 
