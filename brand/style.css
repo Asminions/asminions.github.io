@@ -208,7 +208,7 @@ i.fa.fa-search {
 	transform: scale(1.2, 1.2);
 }
 
-.menu-list a:hover {
+.menu-link:hover {
 	border-bottom: 3px solid #ef5b70;
 }
 
@@ -763,7 +763,12 @@ footer {
 	text-transform: uppercase;
 }
 .menu-list {
+	position: relative;
 	
+}
+
+.menu-list:hover .pod {
+	display: flex;
 }
 
 .slider-all {
@@ -833,3 +838,96 @@ footer {
 }
 
 
+
+
+
+
+
+.prod-link {
+	text-decoration: none;
+	height: 234px;
+	color: #646464;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.35px;
+}
+
+.prod-link:hover {
+	color: #f16d7f;
+}
+
+
+
+.pod {
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 20px;
+	position: absolute;
+	display: none;
+	
+	top: 59px;
+	left: -5px;
+	
+	
+}
+
+
+
+
+.podul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.pod-heading {
+	color: #232323;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 0.35px;
+	border-bottom: 1px solid #e8e8e8;
+	width: 235px;
+	margin-bottom: 10px;
+	
+}
+
+.pod-flex {
+	margin-right: 46px;
+}
+
+.pod-flex:last-of-type {
+	margin-right: 0;
+}
+
+
+
+.pod-img {
+	padding: 0;
+	height: 118px;
+	background: url(img/pod-img.png) no-repeat;
+	text-decoration: none;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end
+	
+}
+
+.pod-img:hover {
+	border-bottom: none;
+}
+
+.supr-link {
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 900;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 0.55px;
+	margin: 0;
+	margin-bottom: 7px;
+}
