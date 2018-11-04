@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<title>Product</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="norm.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> </head>
 
 <body>
@@ -89,7 +89,7 @@
 			<div class="arrivals-box">
 				<div class="arrivals-left">
 					<h3 class="h3-arrivals">New Arrivals </h3> </div>
-				<div class="arrivals-right"> <a class="newright-black" href="#">Home</a><span> /</span> <a class="newright-black" href="#">Men</a><span> /</span> <a class="newright-red" href="#">New Arrivals</a> </div>
+				<div class="arrivals-right"> <a class="newright-black" href="index.html">Home</a><span> /</span> <a class="newright-black" href="product.html">Men</a><span> /</span> <a class="newright-red" href="product.html">New Arrivals</a> </div>
 			</div>
 		</div>
 	</div>
@@ -132,26 +132,26 @@
 							<h3 class="fsize-h3">Size</h3>
 							<div class="fsize-chek">
 								<label class="chk-txt" for="XXS">
-									<input class="chk-chk" type="checkbox"> XXS</label>
+									<input class="chk-chk" id="XXS" type="checkbox">XXS</label>
 								<label class="chk-txt" for="XS">
-									<input class="chk-chk" type="checkbox"> XS</label>
+									<input class="chk-chk" id="XS" type="checkbox">XS</label>
 								<label class="chk-txt" for="S">
-									<input class="chk-chk" type="checkbox"> S</label>
+									<input class="chk-chk" id="S" type="checkbox">S</label>
 								<label class="chk-txt" for="M">
-									<input class="chk-chk" type="checkbox"> M</label>
-								<label class="chk-txt-l" for="L">
-									<input class="chk-chk" type="checkbox">L </label>
+									<input class="chk-chk" id="M" type="checkbox">M</label>
+								<label class="chk-txt" for="L">
+									<input class="chk-chk" id="L" type="checkbox">L</label>
 								<label class="chk-txt" for="XL">
-									<input class="chk-chk" type="checkbox"> XL</label>
+									<input class="chk-chk" id="XL" type="checkbox">XL</label>
 								<label class="chk-txt" for="XXL">
-									<input class="chk-chk" type="checkbox"> XXL</label>
+									<input class="chk-chk" id="XXL" type="checkbox">XXL</label>
 							</div>
 						</div>
 						<div class="f-price">
 							<h3 class="fprice-h3">pRICE</h3>
 							<div class="fprice-range">
 								<form oninput="result.value=(range.value)" action="#">
-									<input id="range" type="range" value="400" min="0" max="1000" step="1. 10">
+									<label for="range"></label><input id="range" type="range" value="400" min="0" max="1000" step="1. 10">
 									<p class="fprice-usd">$
 										<output name="result" for="range">52</output>
 									</p>
@@ -161,14 +161,14 @@
 					</div>
 					<div class="sort">
 						<div class="sortby"> <a class="sortby-link" href="#">Sort By</a>
-							<select id="sort-select">
+							<select class="sort__select">
 								<option class="sort">Name</option>
 								<option>Name 1</option>
 							</select>
 						</div>
 						<div class="show">
 							<div class="sortby"> <a class="sortby-link" href="#">Show</a>
-								<select id="sort-select">
+								<select class="sort__select">
 									<option class="sort">09</option>
 									<option>08</option>
 								</select>
