@@ -57,7 +57,6 @@ body {
   background-color: #f16d7f;
   padding-left: 19px;
   padding-right: 19px;
-  font-size: 15px;
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
@@ -78,11 +77,11 @@ a.button:hover {
 .menu-link {
   padding: 20px 15px;
   display: block;
-  font-size: 14px;
   color: #222222;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  line-height: 26px;
   transition: transform 100ms ease-in-out, -o-transform 100ms ease-in-out; }
 
 .nav {
@@ -149,7 +148,6 @@ a.button:hover {
 
 .searchB {
   color: #222222;
-  font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.35px; }
 
@@ -310,7 +308,6 @@ i.fa.fa-search {
   line-height: 54px;
   background-color: #f16d7f;
   color: #ffffff;
-  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.4px;
   text-decoration: none;
@@ -407,7 +404,7 @@ img.forma:hover {
 .fidback {
   width: 100%;
   margin-top: 0;
-  background: #e9e9e9 url(../img/fidback.jpg) no-repeat center; }
+  background: url(../img/fidback.jpg) no-repeat center; }
 
 .container-b {
   width: 1609px;
@@ -466,7 +463,7 @@ figure.figure-m {
     color: #222224;
     font-size: 14px;
     font-weight: 400;
-    border-radius: 23px 0 0 23px;
+    border-radius: 23px;
     width: 282px;
     padding-left: 28px;
     padding-right: 106px;
@@ -481,12 +478,13 @@ figure.figure-m {
   background-color: #f16d7f;
   width: 104px;
   position: absolute;
-  margin-left: 280px;
+  margin-left: 283px;
   padding-top: 2px;
   letter-spacing: 0.35px;
   border: none;
   box-sizing: border-box;
   outline: none;
+  min-height: 48px;
   cursor: pointer; }
   .but-Subscribe:hover {
     background-color: #f16d7fa8; }
@@ -495,7 +493,6 @@ figure.figure-m {
 
 .sub-p {
   color: #ffffff;
-  font-size: 14px;
   font-weight: 400; }
 
 .subscribe {
@@ -1013,7 +1010,6 @@ summary {
   display: block;
   text-decoration: none;
   color: #ef5b70;
-  font-size: 16px;
   font-weight: bold;
   line-height: 44px;
   border: 1px solid #ef5b70;
@@ -1089,5 +1085,209 @@ summary::after {
 
 #tick {
   color: black; }
+
+/*cart */
+.product-details__box-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  border-bottom: 1px solid #eaeaea; }
+
+.product-details__box__header-blok h2 {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.product-details__box__header-blok:first-of-type {
+  min-width: 500px; }
+
+.product-details__box__product1-blok {
+  display: flex;
+  align-items: center; }
+
+.product1__blok-img {
+  text-decoration: none;
+  display: flex;
+  margin: 0; }
+
+.name_product {
+  color: #222222;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+.name_cols {
+  color: #6f6e6e;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+.bol {
+  color: #575757;
+  font-weight: 400; }
+
+.product-details__box__product1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 25px;
+  padding-top: 25px; }
+
+.product1__blok {
+  margin: 0;
+  padding: 0; }
+
+.product-details__box__product1-blok:first-of-type {
+  margin-right: 230px; }
+
+.button__close {
+  border-radius: 100px; }
+
+.product1__blok-close {
+  text-decoration: none;
+  color: #c0c0c0;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .product1__blok-close:hover {
+    color: #f16d7f; }
+
+.product1__blok-input {
+  width: 54px;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff; }
+
+.product1__blok {
+  color: #656565;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 15px; }
+
+.shop-button {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between; }
+
+.shop-button__push {
+  height: 50px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 50px;
+  padding-left: 38px;
+  padding-right: 38px; }
+  .shop-button__push:hover {
+    background-color: #f16d7fa8; }
+
+.shipping-h3 {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.shipping {
+  margin-top: 63px;
+  display: flex;
+  margin-bottom: 79px; }
+
+.sadress {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 390px; }
+
+.sadress__city {
+  color: #b1b1b1;
+  font-weight: 300;
+  border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+  padding-left: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 355px; }
+
+.sadress__txt {
+  color: #b1b1b1;
+  font-weight: 300;
+  border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+  padding-left: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 355px; }
+
+.sadress__link {
+  width: 122px;
+  color: #4a4a4a;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff; }
+  .sadress__link:hover {
+    background: #f16d7fa8; }
+
+.discount-adress {
+  display: flex;
+  flex-flow: column;
+  width: 390px; }
+
+.discount__adress__p-left {
+  color: #000000;
+  font-weight: 300;
+  text-align: left; }
+
+.discount__adress-p {
+  color: #000000;
+  font-weight: 300;
+  text-align: right; }
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-self: center; }
+
+.grand-total {
+  color: #222222;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right; }
+
+.grand__total-red {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f16d7f; }
+
+.total-txt {
+  border-bottom: 1px solid #eaeaea;
+  width: 275px;
+  margin: 0;
+  padding: 0; }
+
+.button-total {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 18px 42px;
+  background-color: #f16d7f;
+  text-decoration: none;
+  margin-top: 15px; }
+  .button-total:hover {
+    background-color: #f16d7fa8; }
 
 /*# sourceMappingURL=style.css.map */
