@@ -1264,7 +1264,8 @@ summary::after {
 .total {
   display: flex;
   flex-direction: column;
-  align-self: center; }
+  align-self: center;
+  min-width: 355px; }
 
 .grand-total {
   color: #222222;
@@ -1283,7 +1284,6 @@ summary::after {
 
 .total-txt {
   border-bottom: 1px solid #eaeaea;
-  width: 275px;
   margin: 0;
   padding: 0; }
 
@@ -1294,7 +1294,9 @@ summary::after {
   padding: 18px 42px;
   background-color: #f16d7f;
   text-decoration: none;
-  margin-top: 15px; }
+  margin-top: 15px;
+  display: flex;
+  justify-content: center; }
   .button-total:hover {
     background-color: #f16d7fa8; }
 
