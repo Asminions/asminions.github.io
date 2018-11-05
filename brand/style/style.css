@@ -1265,7 +1265,8 @@ summary::after {
   display: flex;
   flex-direction: column;
   align-self: center;
-  min-width: 355px; }
+  min-width: 276px;
+  padding: 41px 43px; }
 
 .grand-total {
   color: #222222;
