@@ -1092,7 +1092,6 @@ summary::after
 
 .product-details__box-header
   display: flex
-  justify-content: space-between
   margin-bottom: 22px
   border-bottom: 1px solid #eaeaea
 
@@ -1107,8 +1106,14 @@ summary::after
     margin-bottom: 20px
     margin-top: 20px
 
-.product-details__box__header-blok:first-of-type
-  min-width: 500px
+.blok-h3
+  max-width: 450px
+
+.quad
+  display: flex
+  justify-content: space-between
+
+
 
 .product-details__box__product1-blok
   display: flex
@@ -1233,12 +1238,12 @@ summary::after
   width: 355px
 
 .sadress__link
-  width: 122px
+  max-width: 122px
   color: #4a4a4a
   font-weight: 700
   text-transform: uppercase
   text-decoration: none
-  padding: 12px
+  padding: 12px 17px
   text-align: center
   +bb-c
   &:hover
@@ -1255,9 +1260,11 @@ summary::after
   text-align: left
 
 .discount__adress-p
-  color: #000000
-  font-weight: 300
   text-align: right
+  color: #4a4a4a
+  font-size: 11px
+  font-weight: 400
+  text-transform: uppercase
 
 .total
   display: flex
@@ -1273,6 +1280,10 @@ summary::after
 .grand__total-red
   +grand-total
   color: #f16d7f
+  margin-left: 20px
+.grand__total-p
+  +mrgn-l
+
 
 .total-txt
   border-bottom: 1px solid #eaeaea
