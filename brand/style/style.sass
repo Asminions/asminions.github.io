@@ -797,7 +797,7 @@ footer
   min-height: 598px
   margin-right: 50px
 
-summary
+.sum-cat
   max-width: 223px
   height: 37px
   color: #ef5b70
@@ -1066,7 +1066,7 @@ summary
 .free-delivery
   margin-bottom: 97px
 
-details[open] > summary::after
+details[open] > .sum-cat::after
   content: '\25B4'
   color: #ef5b70
   transform: rotate(360deg)
@@ -1075,7 +1075,7 @@ details[open] > summary::after
   line-height: 19.99px
   text-transform: uppercase
 
-summary::after
+.sum-cat::after
   content: '\25B4'
   padding: 0 10px
   transform: rotate(180deg)
@@ -1116,8 +1116,6 @@ summary::after
 .quad
   display: flex
   justify-content: space-between
-
-
 
 .product-details__box__product1-blok
   display: flex
@@ -1287,9 +1285,9 @@ summary::after
   +grand-total
   color: #f16d7f
   margin-left: 20px
+
 .grand__total-p
   +mrgn-l
-
 
 .total-txt
   border-bottom: 1px solid #eaeaea
@@ -1308,4 +1306,141 @@ summary::after
   justify-content: center
   &:hover
     background-color: #f16d7fa8
+
+.chekcout-box
+  margin-bottom: 93px
+
+.det-chekbox__chekbox
+  width: 100%
+  color: #222222
+  font-weight: 700
+  text-transform: uppercase
+  display: block
+  cursor: pointer
+  margin: 32px 0 32px 0
+
+.det-chekbox__chekbox
+  &::-webkit-details-marker
+    display: none
+
+.det-shipping
+  +dflex
+
+.shipping-guest
+  width: 100%
+
+.shipping-reg
+  min-width: 391px
+
+.shipping-label
+  +dflex
+  flex-flow: column
+.shipping-guest__link
+  +dflex
+  justify-content: center
+  align-items: center
+  height: 50px
+  color: #4a4a4a
+  font-weight: 700
+  text-transform: uppercase
+  text-decoration: none
+  width: 180px
+  background-color: #f16d7f
+  transition: transform 1s ease-in-out
+  &:hover
+    +pink
+    transform: scale(0.9, 0.9)
+  &_plr
+    padding-left: 53px
+    padding-right: 53px
+
+
+
+.shipping-guest__p
+  color: #b3b2b2
+  font-size: 13px
+  font-weight: 400
+  line-height: 20px
+  &_pmb
+    margin-bottom: 23px
+
+.shipping-guest__h2
+  color: #222222
+  font-size: 13px
+  font-weight: 400
+  text-transform: uppercase
+  &_mt
+    margin: 0
+
+.shipping-label__name
+  color: #222222
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+  cursor: pointer
+  &_mbnull
+    margin: 0 10px 0 0
+  &_lmb
+    margin-bottom: 20px
+
+.forgot
+  +dflex
+.forg-button
+  +txtd-n
+  +dflex
+  align-items: center
+  height: 50px
+  color: #4a4a4a
+  font-weight: 700
+  text-transform: uppercase
+  border: 1px solid #eaeaea
+  background-color: #f16d7f
+  transition: transform 1s ease-in-out
+  &_fbpadding
+    padding-left: 55px
+    padding-right: 81px
+  &:hover
+    +pink
+    transform: scale(0.9, 0.9)
+
+.forg-pass
+  +txtd-n
+  +dflex
+  color: #222222
+  font-size: 14px
+  font-weight: 400
+  line-height: 20px
+  justify-content: center
+  align-items: center
+  &_fbmarg
+    padding-left: 32px
+  &:hover
+    color: #f16d7f
+
+.shipping-reg__Required
+  color: #ff0d0d
+  font-size: 13px
+  font-weight: 400
+  line-height: 20px
+  &_marnul
+    margin: 0 0 14px
+
+.shipping-reg__sup
+  color: #ff0d0d
+  font-size: 17px
+  font-weight: 400
+
+.shipping-reg__h3
+  color: #222222
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+  &_h3mbtnul
+    margin: 0 0 10px 0
+
+.shipping-reg__input
+  width: 390px
+  height: 45px
+  border: 1px solid #eaeaea
+  padding-left: 10px
 
