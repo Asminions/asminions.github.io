@@ -1324,10 +1324,12 @@ details[open] > .sum-cat::after {
   display: flex; }
 
 .shipping-guest {
-  width: 100%; }
+  width: 100%;
+  flex: 1; }
 
 .shipping-reg {
-  min-width: 391px; }
+  min-width: 391px;
+  flex: 0.8; }
 
 .shipping-label {
   display: flex;
