@@ -107,45 +107,56 @@
 <!-- chekcout -->
 <div class="container chekcout-box">
     <details class="det-chekbox" open>
-    <summary class="det-chekbox__chekbox">01.   Shipping Adress</summary>
-    <div class="det-shipping">
-        <div class="shipping-guest">
+        <summary class="det-chekbox__chekbox">01. Shipping Adress</summary>
+        <div class="det-shipping">
+            <div class="shipping-guest">
 
-            <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Check as a guest or register</h2>
-            <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
-            <div class="shipping-label">
-            <label class="shipping-label__name shipping-label__name_lmb" for="guest1">
-                <input class="shipping-label__name_mbnull"  title="enter user" name="user" id="guest1" type="radio" value="guest">checkout as guest
-            </label>
-            <label class="shipping-label__name" for="register1">
-                <input class="shipping-label__name_mbnull" required title="enter user" name="user" id="register1" type="radio" value="register" checked>register
-            </label>
+                <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Check as a guest or register</h2>
+                <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
+                <div class="shipping-label">
+                    <label class="shipping-label__name shipping-label__name_lmb" for="guest1">
+                        <input class="shipping-label__name_mbnull" title="enter user" name="user" id="guest1"
+                               type="radio" value="guest">checkout as guest
+                    </label>
+                    <label class="shipping-label__name" for="register1">
+                        <input class="shipping-label__name_mbnull" required title="enter user" name="user"
+                               id="register1" type="radio" value="register" checked>register
+                    </label>
+                </div>
+                <h2 class="shipping-guest__h2">register and save time!</h2>
+                <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
+                <p class="shipping-guest__p">&raquo;Fast and easy checkout</p>
+                <p class="shipping-guest__p">&raquo;Easy access to your order history and status</p>
+                <a href="#" class="shipping-guest__link shipping-guest__link_plr">Continue</a>
             </div>
-            <h2 class="shipping-guest__h2">register and save time!</h2>
-            <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
-            <p class="shipping-guest__p">&raquo;Fast and easy checkout</p>
-            <p class="shipping-guest__p">&raquo;Easy access to your order history and status</p>
-            <a href="#" class="shipping-guest__link shipping-guest__link_plr">Continue</a>
+            <div class="shipping-reg">
+                <form action="">
+                    <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Already registed?</h2>
+                    <p class="shipping-guest__p">Please log in below</p>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
+                    <input class="shipping-reg__input" placeholder="Email" type="email" required title="enter password">
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
+                    <input class="shipping-reg__input" placeholder="Pass" type="password" required
+                           title="enter password">
+                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup>Required Fileds
+                    </p>
+                    <div class="forgot">
+                        <a class="forg-button forg-button_fbpadding" href="">Log in</a>
+                        <a class="forg-pass forg-pass_fbmarg" href="">Forgot Password ?</a>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="shipping-reg">
-            <form action="">
-            <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Already registed?</h2>
-            <p class="shipping-guest__p">Please log in below</p>
-            <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup"><small>*</small></sup></h3>
-            <input class="shipping-reg__input" placeholder="Email" type="email" required title="enter password">
-            <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup"><small>*</small></sup></h3>
-            <input class="shipping-reg__input" placeholder="Pass" type="password" required title="enter password">
-             <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup"><small>*</small></sup>Required Fileds</p>
-             <div class="forgot">
-                 <a class="forg-button forg-button_fbpadding" href="">Log in</a>
-                 <a class="forg-pass forg-pass_fbmarg" href="">Forgot Password ?</a>
-             </div>   
-            </form>
-        </div>
-    </div>
-</details>
-    <details class="det-chekbox" >
-        <summary class="det-chekbox__chekbox">02.   BILLING INFORMATION</summary>
+    </details>
+    <hr class="container__line">
+    <details class="det-chekbox">
+        <summary class="det-chekbox__chekbox">02. BILLING INFORMATION</summary>
         <div class="det-shipping">
             <div class="shipping-guest">
 
@@ -153,10 +164,12 @@
                 <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
                 <div class="shipping-label">
                     <label class="shipping-label__name shipping-label__name_lmb" for="guest2">
-                        <input class="shipping-label__name_mbnull" name="user" id="guest2" type="radio" value="guest">checkout as guest
+                        <input class="shipping-label__name_mbnull" name="user" id="guest2" type="radio" value="guest">checkout
+                        as guest
                     </label>
                     <label class="shipping-label__name" for="register2">
-                        <input class="shipping-label__name_mbnull" name="user" id="register2" type="radio" value="register" checked>register
+                        <input class="shipping-label__name_mbnull" name="user" id="register2" type="radio"
+                               value="register" checked>register
                     </label>
                 </div>
                 <h2 class="shipping-guest__h2">register and save time!</h2>
@@ -169,11 +182,18 @@
                 <form action="">
                     <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Already registed?</h2>
                     <p class="shipping-guest__p">Please log in below</p>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" placeholder="Email" type="email" required>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" placeholder="Pass" type="password" required>
-                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup"><small>*</small></sup>Required Fileds</p>
+                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup>Required Fileds
+                    </p>
                     <div class="forgot">
                         <a class="forg-button forg-button_fbpadding" href="">Log in</a>
                         <a class="forg-pass forg-pass_fbmarg" href="">Forgot Password ?</a>
@@ -182,9 +202,9 @@
             </div>
         </div>
     </details>
-    <hr>
+    <hr class="container__line">
     <details class="det-chekbox">
-        <summary class="det-chekbox__chekbox">03.   SHIPPING INFORMATION</summary>
+        <summary class="det-chekbox__chekbox">03. SHIPPING INFORMATION</summary>
         <div class="det-shipping">
             <div class="shipping-guest">
 
@@ -192,10 +212,12 @@
                 <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
                 <div class="shipping-label">
                     <label class="shipping-label__name shipping-label__name_lmb" for="guest3">
-                        <input class="shipping-label__name_mbnull" name="user" id="guest3" type="radio" value="guest">checkout as guest
+                        <input class="shipping-label__name_mbnull" name="user" id="guest3" type="radio" value="guest">checkout
+                        as guest
                     </label>
                     <label class="shipping-label__name" for="register3">
-                        <input class="shipping-label__name_mbnull" name="user" id="register3" type="radio" value="register" checked>register
+                        <input class="shipping-label__name_mbnull" name="user" id="register3" type="radio"
+                               value="register" checked>register
                     </label>
                 </div>
                 <h2 class="shipping-guest__h2">register and save time!</h2>
@@ -208,11 +230,18 @@
                 <form action="">
                     <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Already registed?</h2>
                     <p class="shipping-guest__p">Please log in below</p>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" type="email" required>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" type="password" required>
-                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup"><small>*</small></sup>Required Fileds</p>
+                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup>Required Fileds
+                    </p>
                     <div class="forgot">
                         <a class="forg-button forg-button_fbpadding" href="">Log in</a>
                         <a class="forg-pass forg-pass_fbmarg" href="">Forgot Password ?</a>
@@ -221,9 +250,9 @@
             </div>
         </div>
     </details>
-    <hr>
+    <hr class="container__line">
     <details class="det-chekbox">
-        <summary class="det-chekbox__chekbox">04.   SHIPPING METHOD</summary>
+        <summary class="det-chekbox__chekbox">04. SHIPPING METHOD</summary>
         <div class="det-shipping">
             <div class="shipping-guest">
 
@@ -231,10 +260,12 @@
                 <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
                 <div class="shipping-label">
                     <label class="shipping-label__name shipping-label__name_lmb" for="guest4">
-                        <input class="shipping-label__name_mbnull" name="user" id="guest4" type="radio" value="guest">checkout as guest
+                        <input class="shipping-label__name_mbnull" name="user" id="guest4" type="radio" value="guest">checkout
+                        as guest
                     </label>
                     <label class="shipping-label__name" for="register4">
-                        <input class="shipping-label__name_mbnull" name="user" id="register4" type="radio" value="register" checked>register
+                        <input class="shipping-label__name_mbnull" name="user" id="register4" type="radio"
+                               value="register" checked>register
                     </label>
                 </div>
                 <h2 class="shipping-guest__h2">register and save time!</h2>
@@ -247,11 +278,18 @@
                 <form action="">
                     <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Already registed?</h2>
                     <p class="shipping-guest__p">Please log in below</p>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" type="email" required>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" type="password" required>
-                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup"><small>*</small></sup>Required Fileds</p>
+                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup>Required Fileds
+                    </p>
                     <div class="forgot">
                         <a class="forg-button forg-button_fbpadding" href="">Log in</a>
                         <a class="forg-pass forg-pass_fbmarg" href="">Forgot Password ?</a>
@@ -260,9 +298,9 @@
             </div>
         </div>
     </details>
-    <hr>
+    <hr class="container__line">
     <details class="det-chekbox">
-        <summary class="det-chekbox__chekbox">05.   PAYMENT METHOD</summary>
+        <summary class="det-chekbox__chekbox">05. PAYMENT METHOD</summary>
         <div class="det-shipping">
             <div class="shipping-guest">
 
@@ -270,10 +308,12 @@
                 <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
                 <div class="shipping-label">
                     <label class="shipping-label__name shipping-label__name_lmb" for="guest5">
-                        <input class="shipping-label__name_mbnull" name="user" id="guest5" type="radio" value="guest">checkout as guest
+                        <input class="shipping-label__name_mbnull" name="user" id="guest5" type="radio" value="guest">checkout
+                        as guest
                     </label>
                     <label class="shipping-label__name" for="register5">
-                        <input class="shipping-label__name_mbnull" name="user" id="register5" type="radio" value="register" checked>register
+                        <input class="shipping-label__name_mbnull" name="user" id="register5" type="radio"
+                               value="register" checked>register
                     </label>
                 </div>
                 <h2 class="shipping-guest__h2">register and save time!</h2>
@@ -286,11 +326,18 @@
                 <form action="">
                     <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Already registed?</h2>
                     <p class="shipping-guest__p">Please log in below</p>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" type="email" required title="enter password">
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" type="password" required title="enter password">
-                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup"><small>*</small></sup>Required Fileds</p>
+                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup>Required Fileds
+                    </p>
                     <div class="forgot">
                         <a class="forg-button forg-button_fbpadding" href="">Log in</a>
                         <a class="forg-pass forg-pass_fbmarg" href="">Forgot Password ?</a>
@@ -299,9 +346,9 @@
             </div>
         </div>
     </details>
-    <hr>
+    <hr class="container__line">
     <details class="det-chekbox">
-        <summary class="det-chekbox__chekbox">06.   ORDER REVIEW</summary>
+        <summary class="det-chekbox__chekbox">06. ORDER REVIEW</summary>
         <div class="det-shipping">
             <div class="shipping-guest">
 
@@ -309,10 +356,12 @@
                 <p class="shipping-guest__p shipping-guest__p_pmb">Register with us for future convenience</p>
                 <div class="shipping-label">
                     <label class="shipping-label__name shipping-label__name_lmb" for="guest">
-                        <input class="shipping-label__name_mbnull" name="user" id="guest" type="radio" value="guest">checkout as guest
+                        <input class="shipping-label__name_mbnull" name="user" id="guest" type="radio" value="guest">checkout
+                        as guest
                     </label>
                     <label class="shipping-label__name" for="register">
-                        <input class="shipping-label__name_mbnull" name="user" id="register" type="radio" value="register" checked>register
+                        <input class="shipping-label__name_mbnull" name="user" id="register" type="radio"
+                               value="register" checked>register
                     </label>
                 </div>
                 <h2 class="shipping-guest__h2">register and save time!</h2>
@@ -325,11 +374,18 @@
                 <form action="">
                     <h2 class="shipping-guest__h2 shipping-guest__h2_mt">Already registed?</h2>
                     <p class="shipping-guest__p">Please log in below</p>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">EMAIL ADDRESS<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" type="email" required>
-                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup"><small>*</small></sup></h3>
+                    <h3 class="shipping-reg__h3 shipping-reg__h3_h3mbtnul">PASSWORD<sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup></h3>
                     <input class="shipping-reg__input" type="password" required>
-                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup"><small>*</small></sup>Required Fileds</p>
+                    <p class="shipping-reg__Required shipping-reg__Required_marnul"><sup class="shipping-reg__sup">
+                        <small>*</small>
+                    </sup>Required Fileds
+                    </p>
                     <div class="forgot">
                         <a class="forg-button forg-button_fbpadding" href="">Log in</a>
                         <a class="forg-pass forg-pass_fbmarg" href="">Forgot Password ?</a>
@@ -338,7 +394,7 @@
             </div>
         </div>
     </details>
-    </div>
+</div>
 <!-- Футер -->
 <div class="fidback">
     <div class="container">
@@ -427,12 +483,7 @@
             <div class="footer-left">
                 <p class="foot-txt">&copy; 2017 Brand All Rights Reserved.</p>
             </div>
-            <div class="footer-right"><a href="#" class="icone-soc"><i class="fa fa-facebook" aria-hidden="true"
-                                                                       fax5></i></a> <a href="#" class="icone-soc"><i
-                    class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" class="icone-soc"><i
-                    class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="#" class="icone-soc"><i
-                    class="fa fa-pinterest-p" aria-hidden="true"></i></a> <a href="#" class="icone-soc"><i
-                    class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+            <div class="footer-right"> <a href="https://www.facebook.com/" target="_blank" class="icone-soc"><i class="fa fa-facebook" aria-hidden="true" fax5></i></a> <a href="https://twitter.com/" target="_blank" class="icone-soc"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://tlgrm.ru/" target="_blank" class="icone-soc"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="https://www.pinterest.ru/" target="_blank" class="icone-soc"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a> <a href="https://plus.google.com" target="_blank" class="icone-soc"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </div>
         </div>
     </div>
 </div>
