@@ -67,7 +67,7 @@ a.button:hover {
 
 .cart-img {
   margin-right: 26px;
-  transition: transform 0.8s; }
+  transition: transform 500ms; }
   .cart-img:hover {
     transform: rotate(-30deg); }
 
