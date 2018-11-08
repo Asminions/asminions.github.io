@@ -66,6 +66,9 @@ a.button:hover
 
 .cart-img
   margin-right: 26px
+  transition: transform 0.8s
+  &:hover
+    transform: rotate(-30deg)
 
 .menu
   list-style-type: none
@@ -1199,8 +1202,10 @@ details[open] > .sum-cat::after
   line-height: 50px
   padding-left: 38px
   padding-right: 38px
+  transition: transform 1s
   &:hover
     background-color: #f16d7fa8
+    transform: scale(0.9)
 
 .shipping-h3
   color: #222222
@@ -1248,8 +1253,10 @@ details[open] > .sum-cat::after
   padding: 12px 17px
   text-align: center
   +bb-c
+  transition: transform 1s
   &:hover
     background: #f16d7fa8
+    transform: scale(0.9)
 
 .discount-adress
   display: flex
@@ -1305,8 +1312,10 @@ details[open] > .sum-cat::after
   margin-top: 15px
   display: flex
   justify-content: center
+  transition: transform 1s
   &:hover
     background-color: #f16d7fa8
+    transform: scale(0.9)
 
 .chekcout-box
   margin-bottom: 93px
