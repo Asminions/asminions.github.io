@@ -23,6 +23,7 @@ body
 .header-left
   display: flex
   align-items: center
+  margin-left: 8px
 
 .logo
   display: flex
@@ -43,7 +44,7 @@ body
   border-radius: 0 3px 3px 0
   /*border: 1px solid #e6e6e6;
   background-color: #ffffff
-  margin-left: 37px
+  margin-left: 49px
   border: none
   outline: none
 
@@ -51,39 +52,122 @@ body
   display: flex
   align-items: center
 
+
+.header-right_link
+  display: block
+  transition: 1s
+  position: relative
+  &:hover
+    transition: 1s
+
+.cart-box
+  width: 262px
+  border-radius: 5px
+  background-color: #ffffff
+  position: absolute
+  top: 77px
+  margin-left: -20px
+  padding: 0 17px 0 17px
+  display: none
+
+.header-right
+  &:hover .cart-box
+    display: block
+
+
+
+.cart-prod
+  border-bottom: 1px solid #ededed
+  padding: 16px 0 16px 0
+  +dflex
+  justify-content: space-between
+
+.cart-prod_img
+  padding-right: 17px
+
+.cart-prod_p
+  color: #e4af48
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+  margin: 0
+
+.cart-box_txt
+  +dflex
+  justify-content: space-between
+.box-link
+  +dflex
+  flex-direction: column
+
+.box-link_lnk
+  +dflex
+  justify-content: center
+  align-items: center
+  margin-bottom: 11px
+  color: #f16d7f
+  font-weight: 700
+  text-transform: uppercase
+  text-decoration: none
+  background-color: #ffffff
+  padding: 19px 0
+  transition: transform 1s ease-in
+  &:hover
+    outline: 1px solid #f16d7f
+    box-shadow: 0 0 8px 2px
+    transform: scale(0.9)
+
+.product1__blok-txt_red
+  color: #f16d7f
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+
+.txt-red_x
+  font-size: 10px
+  padding: 0 5px 0 5px
+
+.cart-prod_close
+  +dflex
+
+
+
+
 .button
   line-height: 38px
   background-color: #f16d7f
-  padding-left: 19px
+  padding-left: 12px
   padding-right: 19px
   color: #ffffff
   font-weight: 400
   text-decoration: none
   letter-spacing: 0.38px
+  margin-right: -6px
 
 a.button:hover
   background-color: #f16d7fa8
 
 .cart-img
   margin-right: 26px
+  margin-top: 14px
   transition: transform 500ms
   &:hover
     transform: rotate(-30deg)
 
+
 .menu
   list-style-type: none
   display: flex
-  height: 51px
+  height: 18px
   justify-content: center
 
 .menu-link
-  padding: 20px 15px
+  padding: 0px 33px 0 13px
   display: block
   color: #222222
   font-weight: 700
+  font-size: 14px
   text-decoration: none
   text-transform: uppercase
-  line-height: 26px
   transition: transform 100ms ease-in-out, -o-transform 100ms ease-in-out
 
 .nav
@@ -96,7 +180,7 @@ a.button:hover
 .bunner-back
   background-image: url(../img/back-b.jpg)
   height: 100%
-  background-position: 0 -51px
+  background-position: 17px -51px
   display: flex
   align-items: center
 
@@ -120,6 +204,9 @@ a.button:hover
 .bunner-text
   border-left: 12px solid #f16d7f
   padding-left: 12px
+  margin-left: 10px
+  margin-top: -68px
+  letter-spacing: 1px
 
 .fashion-span
   color: #f16d7f
@@ -153,7 +240,7 @@ a.button:hover
   letter-spacing: 0.35px
 
 input#txtSearch
-  width: 280px
+  width: 255px
   padding: 0 10px 0 10px
   font-size: 16px
   border: 1px solid #e6e6e6
@@ -175,7 +262,7 @@ i.fa.fa-search
   transform: scale(1.2, 1.2)
 
 .menu-link:hover
-  border-bottom: 3px solid #ef5b70
+  color: #ef5b70
 
 /*Категории
 
@@ -710,7 +797,7 @@ footer
   padding: 20px
   position: absolute
   display: none
-  top: 59px
+  top: 26px
   left: -5px
 
 .podul
@@ -1170,8 +1257,11 @@ details[open] > .sum-cat::after
   font-size: 16px
   font-weight: 400
   text-transform: uppercase
+  +dflex
   &:hover
     color: #f16d7f
+.card-prod_fb
+  align-items: center
 
 .product1__blok-input
   width: 54px
@@ -1288,6 +1378,10 @@ details[open] > .sum-cat::after
   font-weight: 700
   text-transform: uppercase
   text-align: right
+
+.cart-box_total
+  +dflex
+  justify-content: flex-start
 
 .grand__total-red
   +grand-total
