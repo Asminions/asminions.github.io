@@ -68,7 +68,8 @@ body {
   top: 77px;
   margin-left: -20px;
   padding: 0 17px 0 17px;
-  display: none; }
+  display: none;
+  z-index: 1; }
 
 .header-right:hover .cart-box {
   display: block; }
