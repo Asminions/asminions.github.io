@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu"></div>
+<div class="menu-a">
+    <a href="#" id="delMenu">Удали МЕНЮ</a>
+    <a href="#" id="returnMenu">Верни МЕНЮ</a>
+</div>
+
+
+<script src="MenuItem.js"></script>
+<script src="Menu.js"></script>
+<script src="SubMenu.js"></script>
+<script>
+    window.onload = () => {
+        // DOM ready
+        let block = document.getElementById('menu');
+
+        let menu = new Menu('my', 'my', [
+            new MenuItem('/', 'Home'),
+            new MenuItem('/about', 'About'),
+            new MenuItem('/policy', 'Policy'),
+            new SubMenu('/mens', 'Mens', 'me', 'me', [
+                new MenuItem('/about', 'About'),
+                new SubMenu('/mens', 'Mens', 'me', 'me', [
+                    new MenuItem('/about', 'About'),
+                    new MenuItem('/policy', 'Policy'),
+                ]),
+                new MenuItem('/policy', 'Policy'),
+            ]),
+            new MenuItem('/blog', 'Blog')
+        ]);
+
+
+        block.innerHTML = menu.render();
+
+        let delMenu = document.getElementById('delMenu');
+        delMenu.addEventListener('click', () => {
+            menu.remove();
+        });
+
+        let returnMenu = document.getElementById('returnMenu');
+        returnMenu.addEventListener('click', () => {
+            block.innerHTML = menu.render(); // забавы ради( но согласно dry код провален).
+        })
+    }
+</script>
+</body>
+</html>
