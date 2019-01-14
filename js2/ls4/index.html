@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Урок 4. Введение в jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="content">
+    <div id="inner">
+        <h1 class="h1-txt">Урок 4. Введение в jQuery - Задание №1</h1>
+        <div class="tabs">
+            <!-- вкладки -->
+            <ul class="tab-links">
+                <li class="active"><a href="#tab1">ВОТ СЮДА НАЖМИ</a></li>
+                <li class=""><a href="#tab2">ИЛИ СЮДА</a></li>
+                <li class=""><a href="#tab3">СЮДА</a></li>
+                <li class=""><a href="#tab4">И ВОТ ОНО СЧАСТЬЕ</a></li>
+                <li class=""><a href="#tab5">?</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="tab1" class="tab active" style="display: block;">
+                    <p><b>ТЫ жмякнул СЮДА</b></p>
+                    <p>И Попал сюда, больше не жмякай</p>
+                </div>
+
+                <div id="tab2" class="tab" style="display: none;">
+                    <p><b>ТЫ жмякнул СЮДА, это 2-ой твой МЖЯК</b></p>
+                    <p>И Попал сюда, больше не жмякай</p>
+                </div>
+
+                <div id="tab3" class="tab" style="display: none;">
+                    <p><b>ТЫ жмякнул СЮДА, это 3-ий твой МЖЯК</b></p>
+                    <p>И Попал сюда, больше не жмякай</p>
+                </div>
+
+                <div id="tab4" class="tab" style="display: none;">
+                    <p><b>ТЫ жмякнул СЮДА, это 4-ый твой МЖЯК</b></p>
+                    <p>И Попал сюда, больше не жмякай</p>
+                </div>
+                <div id="tab5" class="tab" style="display: none;">
+                    <p><b>&varnothing;</b></p>
+                    <p>АГА интересно стало, я знал, что ты нажмешь</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="jquery.min.js"></script>
+<!-- <script src="jquery.mask.min.js"></script> -->
+<script>
+    $(document).ready(() => {
+        $('tabs').on('click', '.tab-links a',  (e) => {
+            let $currentValueAttr = $(this).attr('href');
+            $('.tabs ' + $currentValueAttr).fadeIn(500).siblings().hide();
+            $(this).parent('li').addClass('active').siblings().removeClass('active');
+            e.preventDefault();
+        });
+    });
+
+</script>
+</body>
+</html>
