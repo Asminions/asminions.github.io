@@ -33,6 +33,17 @@ body{
 .h1-txt {
     text-align: center;
     padding: 15px 0 50px 0;
+    color: #7f7f80;
+}
+.task {
+    color: white;
+    font-size: 25px;
+    font-family: "Bookman Old Style";
+    font-weight: revert;
+}
+
+p {
+    text-align: center;
 }
 
 /* Tab Links */
