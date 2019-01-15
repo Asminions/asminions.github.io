@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<div class="forme">
+<form action="#" method="post" class="myform" id="myform">
+    <!--Имя-->
+    <label for="name" class="label">Имя</label>
+    <input type="text" class="field" id="name" name="name" placeholder="Name">
+    <!--Телефон-->
+    <label for="name" class="label">Телефон</label>
+    <input type="text" class="field" id="phone" name="phone" placeholder="+7(000)000-0000">
+    <!--Email-->
+    <label for="name" class="label">E-mail</label>
+    <input type="text" class="field" id="email" name="email"  placeholder="mymail@mail.ru">
+	<!--City-->
+    <label for="name" class="label">City</label>
+    <input type="text" class="field" id="city" name="city"  placeholder="Gorod">
+    <!--Произвольный текст-->
+    <label for="name" class="label">Текст обращения</label>
+    <textarea class="field textarea" id="message" name="messageText" cols="30" rows="10"
+              placeholder="Произвольный текст"></textarea>
+    <!--Кнопка оправки формы-->
+    <button class="button" type="submit">Отправить</button>
+</form>
+</div>
+<script src="validate.js" defer></script>
+<script>
+    window.onload = () => {
+        document.getElementById('myform').addEventListener('submit', e => {
+            let valid = new Validator('myform');
+            if (!valid.valid){
+                e.preventDefault();
+            }
+        })
+    }
+</script>
+</body>
+</html>

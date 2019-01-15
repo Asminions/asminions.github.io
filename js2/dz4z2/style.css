@@ -1,0 +1,50 @@
+body {
+    font-family: 'Raleway', sans-serif
+}
+
+.forme {
+    width: 350px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #6193e436;
+    color: #333;
+    outline: 2px solid blue;
+
+}
+
+.label {
+    font-size: 15px;
+    font-weight: 700
+}
+
+.field {
+    border: 1px solid #DADADA;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    width: 310px;
+    height: 30px;
+    font-size: 14px;
+
+}
+
+.field:focus {
+    outline: none;
+}
+
+.textarea {
+    height: inherit;
+    padding: 15px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #1b1a19;
+    border: none;
+    padding: 10px 25px;
+    color: #FFF;
+    margin-left: 120px;
+}
+.button:hover{
+    background-color: #dee8f9;
+}
