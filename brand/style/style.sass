@@ -53,26 +53,32 @@ body
   align-items: center
 
 
+
 .header-right_link
-  display: flex
+  display: block
   transition: 1s
-  position: relative
   &:hover
     transition: 1s
+
+.header-right__block
+  position: relative
 
 .cart-box
   width: 262px
   border-radius: 5px
   background-color: #ffffff
   position: absolute
-  top: 77px
   margin-left: -20px
   padding: 0 17px 0 17px
   display: none
   z-index: 1
 
-.header-right
+.header-right__block
   &:hover .cart-box
+    display: block
+
+/*.header-right
+  &:hover
     display: block
 
 

@@ -54,26 +54,30 @@ body {
   align-items: center; }
 
 .header-right_link {
-  display: flex;
-  transition: 1s;
-  position: relative; }
+  display: block;
+  transition: 1s; }
   .header-right_link:hover {
     transition: 1s; }
+
+.header-right__block {
+  position: relative; }
 
 .cart-box {
   width: 262px;
   border-radius: 5px;
   background-color: #ffffff;
   position: absolute;
-  top: 77px;
   margin-left: -20px;
   padding: 0 17px 0 17px;
   display: none;
   z-index: 1; }
 
-.header-right:hover .cart-box {
+.header-right__block:hover .cart-box {
   display: block; }
 
+/*.header-right
+ * &:hover
+ *   display: block */
 .cart-prod {
   border-bottom: 1px solid #ededed;
   padding: 16px 0 16px 0;
