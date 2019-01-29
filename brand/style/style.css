@@ -70,7 +70,9 @@ body {
   margin-left: -20px;
   padding: 0 17px 0 17px;
   display: none;
-  z-index: 1; }
+  z-index: 1;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px #f16d7f; }
 
 .header-right__block:hover .cart-box {
   display: block; }
