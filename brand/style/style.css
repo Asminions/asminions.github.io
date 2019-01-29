@@ -54,7 +54,7 @@ body {
   align-items: center; }
 
 .header-right_link {
-  display: block;
+  display: flex;
   transition: 1s;
   position: relative; }
   .header-right_link:hover {
