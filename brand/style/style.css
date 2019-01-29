@@ -127,6 +127,9 @@ body {
   font-weight: 400;
   text-transform: uppercase; }
 
+.product1__blok-txt {
+  padding-left: 10px; }
+
 .txt-red_x {
   font-size: 10px;
   padding: 0 5px 0 5px; }
