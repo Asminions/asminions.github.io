@@ -9,7 +9,7 @@ $db = [
 foreach ($db as $region => $cities) {
     echo "<b>$region</b> <br>";
     foreach ($cities as $city) {
-        if (substr($city, 0, 2) == 'К') {
+        if (mb_substr($city, 0 , 1) == 'К') {
             echo "&nbsp; $city <br>";;
         }
     }
